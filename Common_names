@@ -1,0 +1,44 @@
+Term        Description
+------      --------------
+
++ and =     "binary" operators because each has two operands
+
+truncated   used in division where remainder is discarded. no rounding occurs.
+            Hint: remainder operator "%" yields remainder after integer division. 
+
+parentheses     embedded, nested. e.g. (a * (b + c))
+
+
+************************************************
+//common names
+
+Term        Description
+------      --------------
+
++ and =     "binary" operators because each has two operands
+
+truncated   used in division where remainder is discarded. no rounding occurs.
+            Hint: remainder operator "%" yields remainder after integer division. 
+
+parentheses     embedded, nested. e.g. (a * (b + c))
+
+constructor	//with params to help initialize
+		
+		explicit Account(std::string accountName)	
+		  : name{accountName} { //member initializer
+
+		//empty body
+		}
+
+data member	private:
+        		std::string name;   // stores a value for member functions to use
+
+
+member function  std::string getName() const {
+		     return name;
+		 }
+		********************************
+		 void setName(std::string accountName) {
+		    name = accountName;
+		 }
+		******************************** 

@@ -1,0 +1,28 @@
+Initial Post: Based on the Chapter 3 reading and activities, explain what classes and objects are in object-oriented programming. Also give an example of each and explain how they work together in a computer program. (Due October 2nd)
+
+Peer Review Post: Read and reply to a peer's forum post - contribute additional detail, examples, questions, etc. 
+
+3.5 - A default constructor does not initialize the class's fundamental type data members,
+      but does call the default constructor for each data member that's an object of another class. 
+      In any class that does not explicitly define a constructor, the compiler provides a default constructor with no parameters.
+
+
+3.6 - A class's data members maintain data for each object of the class. A member function can call this value stored in a data member,
+    as get and set member functions can manipulate the value stored in the data member.
+    private:
+        std::string name;
+
+3.7 - class <string> is also part of the <iostream> class and can be included in the driver. In main, std::string is called, then std::cout 
+      with a return statement. Without declaring a using directive in main, this can be done.
+
+3.8 - A data member may call the set name function to store the data in the data member object. The get function calls the data from the 
+      hidden data member object's data used by the set function. 
+
+3.9 - see 3_9
+
+3.10 
+
+
+3.11
+
+3.12
